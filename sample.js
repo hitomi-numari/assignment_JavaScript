@@ -62,7 +62,7 @@ $(document).ready(function(){
   });
 
   $('#btn-evaluation').on('click',function() {
-    get_achievement();
+    $('#evaluation').append('<p>get_achievement(average).text()</p>');
   });
 
   $('#btn-judge').on('click'(function() {
