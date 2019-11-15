@@ -65,11 +65,11 @@ $(document).ready(function(){
     $('#evaluation').text(get_achievement(average));
   });
 
-  $('#btn-judge').on('click'(function() {
+  $('#btn-judge').on('click',function() {
     get_pass_or_failure();
   });
 
-  $('#btn-declaration').on('click'(function() {
+  $('#btn-declaration').on('click',function() {
     judgement();
   });
 });
